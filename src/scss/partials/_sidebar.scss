@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: $primary2;
+    padding-top: 20px;
+}
+
+.sidebar .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.design-selection, 
+.design-archives, 
+.zen-resources {
+    h3 {
+        text-align: center;
+        color: $primary3;
+        font-family: $header-summary;
+    }   
+
+    ul {
+        list-style-type: none;
+        
+        li {
+            padding: 10px;
+            color: $primary1;
+            font-family: $header-summary;
+
+            a {
+                text-decoration: none;
+                color: $primary1;
+                font-family: $header-summary;
+            }
+
+            a:hover {
+                color: $primary1-highlight;
+            }
+        }
+    }
+}
